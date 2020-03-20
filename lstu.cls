@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{lstu}[2020/02/22 LSTU Report]
+\ProvidesClass{lstu-report}[2020/02/22 LSTU Report]
 
 \LoadClass[14pt,a4paper]{extarticle}
 \RequirePackage{indentfirst}

@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{coursework}[2020/03/20 LSTU CourseWork]
+\ProvidesClass{lstu-coursework}[2020/03/20 LSTU CourseWork]
 
 \LoadClass[14pt,a4paper]{extarticle}
 \RequirePackage{indentfirst}
