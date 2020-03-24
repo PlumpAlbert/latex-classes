@@ -44,6 +44,25 @@ bottom=2.00cm]{geometry}
 \setmonofont{RobotoMono Nerd Font}
 \linespread{1.5}
 \setlength\itemsep{0em}
+\RequirePackage[compact]{titlesec}
+% Изменение формата заголовков
+\titlelabel{\hspace{1.25cm}\thetitle\quad}
+
+\titleformat*
+	{\section} % command
+	{\normalfont\normalsize} % format
+
+\titleformat*
+	{\subsection} % command
+	{\normalfont\normalsize} % format
+
+\titleformat*
+	{\subsubsection} % command
+	{\normalfont\normalsize} % format
+
+\setlength\parindent{1.25cm}
+
+% Переопределение титульного листа
 \renewcommand*{\maketitle}{
 	\begin{titlepage}
 		\baselineskip=21pt
@@ -72,21 +91,3 @@ bottom=2.00cm]{geometry}
 		\end{center}
 	\end{titlepage}
 }
-
-\RequirePackage[compact]{titlesec}
-
-\titlelabel{\hspace{1.25cm}\thetitle\quad}
-
-\titleformat*
-	{\section} % command
-	{\normalfont\normalsize} % format
-
-\titleformat*
-	{\subsection} % command
-	{\normalfont\normalsize} % format
-
-\titleformat*
-	{\subsubsection} % command
-	{\normalfont\normalsize} % format
-
-\setlength\parindent{1.25cm}
